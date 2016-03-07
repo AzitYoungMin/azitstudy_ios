@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="opV-8r-9eU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="DSl-WD-9he">
+            <objects>
+                <viewController storyboardIdentifier="IntroViewController" automaticallyAdjustsScrollViewInsets="NO" id="YGw-2e-thI" customClass="IntroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JpD-SW-Md3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rqx-TI-0c1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D9k-8u-j2m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_loading" translatesAutoresizingMaskIntoConstraints="NO" id="RHo-0N-TNN">
+                                <rect key="frame" x="77" y="219" width="167" height="130"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490196078433" green="0.27450980392156865" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RHo-0N-TNN" firstAttribute="centerY" secondItem="D9k-8u-j2m" secondAttribute="centerY" id="aKZ-hQ-kp4"/>
+                            <constraint firstItem="RHo-0N-TNN" firstAttribute="centerX" secondItem="D9k-8u-j2m" secondAttribute="centerX" id="uMe-7M-36g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BFg-Gk-Ykf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBn-CT-zsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="382"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2D7-dH-Oji">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="opV-8r-9eU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dlh-KE-gFn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YGw-2e-thI" kind="relationship" relationship="rootViewController" id="9hz-ge-mPA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ilm-dX-UHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="382"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_loading" width="167" height="130"/>
+    </resources>
+</document>

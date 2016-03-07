@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaSecurity (1.2.4)
+  - HACBarChart (0.0.5)
+  - MRProgress (0.4.3):
+    - MRProgress/ActivityIndicator (= 0.4.3)
+    - MRProgress/Blur (= 0.4.3)
+    - MRProgress/Circular (= 0.4.3)
+    - MRProgress/Helper (= 0.4.3)
+    - MRProgress/Icons (= 0.4.3)
+    - MRProgress/MessageInterceptor (= 0.4.3)
+    - MRProgress/NavigationBarProgress (= 0.4.3)
+    - MRProgress/Overlay (= 0.4.3)
+    - MRProgress/Stopable (= 0.4.3)
+    - MRProgress/WeakProxy (= 0.4.3)
+  - MRProgress/ActivityIndicator (0.4.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.4.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.4.3):
+    - MRProgress/Helper
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.4.3)
+  - MRProgress/Icons (0.4.3)
+  - MRProgress/MessageInterceptor (0.4.3)
+  - MRProgress/NavigationBarProgress (0.4.3)
+  - MRProgress/Overlay (0.4.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/Stopable (0.4.3):
+    - MRProgress/Helper
+  - MRProgress/WeakProxy (0.4.3)
+  - OBShapedButton (1.0.2)
+  - SHLineGraphView (1.0.6)
+  - SHPieChartView (1.0.3)
+  - SWTableViewCell (0.3.7)
+  - Toast (2.4)
+  - UIAlertView+Blocks (0.9)
+  - UIColor-Hex (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - CocoaSecurity
+  - HACBarChart
+  - MRProgress (~> 0.4.3)
+  - OBShapedButton
+  - SHLineGraphView
+  - SHPieChartView
+  - SWTableViewCell
+  - Toast (~> 2.4)
+  - UIAlertView+Blocks
+  - UIColor-Hex
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  HACBarChart: 64a58fee585bb183e69381b9789e91f712e84473
+  MRProgress: c82426f06ff685f8b684e604b7ac395bbc9fc06e
+  OBShapedButton: ae2ae40dd98b934d4f76be1984c49db73893ada9
+  SHLineGraphView: eb2be643fe2b9778e10e702836a1b474083ab9da
+  SHPieChartView: cbc6c48aa7690575bc3752c68ff23d1db3261db4
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Toast: 0773b8fc0e97352ca6054517bec7ebdd4110029d
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UIColor-Hex: 77e80f383c6b3a63c5e95a9a4a7f4a71976e38a5
+
+COCOAPODS: 0.38.2
